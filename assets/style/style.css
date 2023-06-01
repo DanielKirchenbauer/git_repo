@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Poppins sans-serif;
+    src: url("../fonts/Poppins/Poppins-Regular.ttf")
+
+}
+
+@font-face {
+    font-family: Cinzel sans-serif;
+    src: url("../fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
+}
+
+header h3 {
+    color:#999;
+    font-family: Cinzel;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    margin: 20px;
+    margin-left: 85px;
+}
+h1 {
+    color: #fff;
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform:translate (-50%,-50%);
+    font-weight: 400;
+}
+
+.Background-Alps {
+    background-image: url("../images/Alps_Background_Header.avif");
+    height: 500px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+section h3 {
+    text-align: center;
+    font-family: Cinzel;
+    font-weight: 500px;
+    font-size: 24px;
+    color: #333:
+    margin-top: 250px;
+    pading:
+}
+p {
+    font-family: Poppins;
+    text-align: center:
+    margin-left: auto;
+    margin-right: auto;
+    padding: 200px;
+    margin-bottom: 50px;
+}
+
+article img{
+        margin: 40px 40px 80px 0px;
+        display: inline-block;
+}
+
+section ul {
+    text-align: left;
+    font-family: Poppins;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 50px;
+    border-top: 1px solid #999;
+    padding: 50px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+li::after {
+
+}
+.red-span {
+    color: red;
+}
+.green-span {
+    color: green;
+}
